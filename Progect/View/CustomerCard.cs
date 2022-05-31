@@ -832,20 +832,24 @@ namespace Progect
         /// <param name="e"></param>
         private void ScreenLayers_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Thread.Sleep(1);
-            if (screenLayers.SelectedTab.Text == "Заказ наряды")
+            try
             {
-                orderGeneral.AnaliticStatusOrder(listOrder, cbFilterOrderStatus.Text);
-                if (listOrder.Rows.Count > 0)
+                Thread.Sleep(10);
+                if (screenLayers.SelectedTab.Text == "Заказ наряды")
                 {
-                    orderGeneral.EnabledButtonPrint(listOrder.CurrentCell.RowIndex, listOrder, printOrderOutfit);
-                }
-                else
-                {
-                    printOrderOutfit.Enabled = false;
-                }
+                    orderGeneral.AnaliticStatusOrder(listOrder, cbFilterOrderStatus.Text);
+                    if (listOrder.Rows.Count > 0)
+                    {
+                        orderGeneral.EnabledButtonPrint(listOrder.CurrentCell.RowIndex, listOrder, printOrderOutfit);
+                    }
+                    else
+                    {
+                        printOrderOutfit.Enabled = false;
+                    }
 
+                }
             }
+            catch { }
         }
 
         /// <summary>
