@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Progect.Custom.ClassGeneral" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Custom\ClassGeneral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Custom.ExcelManager" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAIACBQAAAAAAAAAAAAAAAQCAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Custom\ExcelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Custom.ModelDataValidation" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Custom\ModelDataValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Custom.OrderGeneral" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAASAABABAAAAAAAAAAABAAEAAAgAAQAAAAQQAAA=</HashCode>
+      <FileName>Custom\OrderGeneral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Custom.WordManager" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAEACCAAAAAAAJACAAASAAQIAABAhAACAAAAA=</HashCode>
+      <FileName>Custom\WordManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Hash.MD5Class" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Custom\MD5Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Model.Car" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAABAAAAAAAAAAAAAAQAAEAAIAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Model.CarModel" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Model\CarModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Model.CarStamp" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Model\CarStamp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Model.Client" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAgAgQABAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Model\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Model.Order_Log" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQCAAAAAAAAAAAAAAYAAAAAAAACEAAAAAAA=</HashCode>
+      <FileName>Model\Order_Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Model.Service_Group" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Service_Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Program" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.AdminMain">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>XZf7xxfY2GU/8N9kmUbRcP+n/La8GLQjjLiejuxxlvo=</HashCode>
+      <FileName>View\AdminMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.CarAddUpdate" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAFUACQAACCBABQgAACAAACiBIIAGABGikAwSAAKAEA=</HashCode>
+      <FileName>View\CarAddUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.ClientAddUpdate" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAASAACCCABEAAkDEAAACBABEEAAgAgAYAAAACEA=</HashCode>
+      <FileName>View\ClientAddUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.CreatingOrderComponents" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAUAISAABAEEgCiAAIAqAAAASAEIAAACAAAAACg=</HashCode>
+      <FileName>View\CreatingOrderComponents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.CustomerCard" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RIVAAkZACG4QUAlCs2jyGwImRJoiEoEOSCQSFViQAXI=</HashCode>
+      <FileName>View\CustomerCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.EmployeeAddUpdate" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABIQAUEMCCgEBACgECEQAgijAAEAAhoAAQICiACGEA=</HashCode>
+      <FileName>View\EmployeeAddUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.EngineeringWorks" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>1YcAQiQACGYQdBlio2iwGQASxJgiAoEKSCQSFEgRDTI=</HashCode>
+      <FileName>View\EngineeringWorks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Loging" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAQAQCAAAAQAAACAAAACQAAAAAIABAAACyBAEAA=</HashCode>
+      <FileName>View\Loging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.ModelCarAddUpdate" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAUgACAAAAAAgACAQAQCAAAAAAAIAAAAAEAAAAA=</HashCode>
+      <FileName>View\ModelCarAddUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.StampCarAddUpdate" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAUAACAACAAAAACAAABCAAAAAAAIAEAAAEBAQAA=</HashCode>
+      <FileName>View\StampCarAddUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQQAUkAAAIAAAAIAAABEAAAQQIAEAAAAgAAACAWAMA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAEAAQABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progect.SQL.SQLManager" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAAAAAAAAAAAAAEABAAAQAIAgABAAAAAIAAAAI=</HashCode>
+      <FileName>SQL\SQLManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
