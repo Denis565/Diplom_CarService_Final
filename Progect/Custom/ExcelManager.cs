@@ -232,7 +232,7 @@ namespace Progect.Custom
         }
 
         /// <summary>
-        /// Вывод на чечать вдомости об остатках на складах
+        /// Вывод на печать вдомости об остатках на складах
         /// </summary>
         /// <param name="path">Путь для сохранения файла</param>
         public void PrintingExcel(string path)
