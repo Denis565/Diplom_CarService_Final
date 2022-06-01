@@ -980,23 +980,5 @@ namespace Progect
             CbTypeComponent_SelectedIndexChanged(this, new EventArgs());
             CbServiceGroup_SelectedIndexChanged(this, new EventArgs());
         }
-
-        private void ScreenLayers_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            Thread.Sleep(1);
-            if (screenLayers.SelectedTab.Text == "Заказ наряды")
-            {
-                orderGeneral.AnaliticStatusOrder(listOrder, cbFilterOrderStatus.Text);
-                if (listOrder.Rows.Count > 0)
-                {
-                    orderGeneral.EnabledButtonPrint(listOrder.CurrentCell.RowIndex, listOrder, printOrderOutfit);
-                }
-                else
-                {
-                    printOrderOutfit.Enabled = false;
-                }
-
-            }
-        }
     }
 }

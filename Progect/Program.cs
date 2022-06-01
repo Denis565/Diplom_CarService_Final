@@ -17,7 +17,7 @@ namespace Progect
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new Loging());
             }
-            catch { }
+            catch(Exception ex) { MessageBox.Show(ex.Message); }
         }
 
         //Data Source=dbresoran.cjfd5gi0qfpz.us-east-1.rds.amazonaws.com;Initial Catalog=CarService;User ID=admin;Password=qwerty1234

@@ -100,7 +100,6 @@ namespace Progect
             this.screenLayers.SelectedIndex = 0;
             this.screenLayers.Size = new System.Drawing.Size(1420, 596);
             this.screenLayers.TabIndex = 0;
-            this.screenLayers.SelectedIndexChanged += new System.EventHandler(this.ScreenLayers_SelectedIndexChanged);
             // 
             // tabPage3
             // 
@@ -511,7 +510,7 @@ namespace Progect
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(1421, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1421, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 

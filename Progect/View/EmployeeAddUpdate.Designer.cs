@@ -43,10 +43,10 @@ namespace Progect
             this.patronymic = new System.Windows.Forms.TextBox();
             this.login = new System.Windows.Forms.TextBox();
             this.password = new System.Windows.Forms.TextBox();
-            this.menu = new System.Windows.Forms.MenuStrip();
-            this.back = new System.Windows.Forms.ToolStripMenuItem();
             this.label5 = new System.Windows.Forms.Label();
             this.branch = new System.Windows.Forms.ComboBox();
+            this.back = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu = new System.Windows.Forms.MenuStrip();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,10 +57,10 @@ namespace Progect
             this.save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.save.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.save.Location = new System.Drawing.Point(16, 441);
+            this.save.Location = new System.Drawing.Point(10, 376);
             this.save.Margin = new System.Windows.Forms.Padding(3, 3, 3, 7);
             this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(747, 38);
+            this.save.Size = new System.Drawing.Size(765, 38);
             this.save.TabIndex = 1;
             this.save.Text = "Сохранить";
             this.save.UseVisualStyleBackColor = false;
@@ -70,7 +70,7 @@ namespace Progect
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(73, 120);
+            this.label1.Location = new System.Drawing.Point(68, 91);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 20);
             this.label1.TabIndex = 8;
@@ -80,7 +80,7 @@ namespace Progect
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(28, 74);
+            this.label2.Location = new System.Drawing.Point(23, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 20);
             this.label2.TabIndex = 9;
@@ -90,7 +90,7 @@ namespace Progect
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(24, 168);
+            this.label3.Location = new System.Drawing.Point(19, 136);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 10;
@@ -101,9 +101,9 @@ namespace Progect
             this.post.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.post.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.post.FormattingEnabled = true;
-            this.post.Location = new System.Drawing.Point(123, 211);
+            this.post.Location = new System.Drawing.Point(121, 176);
             this.post.Name = "post";
-            this.post.Size = new System.Drawing.Size(640, 33);
+            this.post.Size = new System.Drawing.Size(657, 33);
             this.post.TabIndex = 7;
             this.post.SelectedIndexChanged += new System.EventHandler(this.Post_SelectedIndexChanged);
             // 
@@ -111,7 +111,7 @@ namespace Progect
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(12, 221);
+            this.label4.Location = new System.Drawing.Point(12, 182);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 20);
             this.label4.TabIndex = 11;
@@ -121,7 +121,7 @@ namespace Progect
             // 
             this.loginLable.AutoSize = true;
             this.loginLable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.loginLable.Location = new System.Drawing.Point(54, 269);
+            this.loginLable.Location = new System.Drawing.Point(48, 230);
             this.loginLable.Name = "loginLable";
             this.loginLable.Size = new System.Drawing.Size(59, 20);
             this.loginLable.TabIndex = 15;
@@ -131,7 +131,7 @@ namespace Progect
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(41, 317);
+            this.label7.Location = new System.Drawing.Point(35, 276);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 20);
             this.label7.TabIndex = 17;
@@ -142,11 +142,11 @@ namespace Progect
             this.name.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.name.Location = new System.Drawing.Point(124, 113);
+            this.name.Location = new System.Drawing.Point(121, 86);
             this.name.MaxLength = 50;
             this.name.MinimumSize = new System.Drawing.Size(4, 20);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(641, 30);
+            this.name.Size = new System.Drawing.Size(654, 30);
             this.name.TabIndex = 18;
             this.name.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Name_KeyPress);
             // 
@@ -155,11 +155,11 @@ namespace Progect
             this.surname.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.surname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.surname.Location = new System.Drawing.Point(124, 67);
+            this.surname.Location = new System.Drawing.Point(121, 43);
             this.surname.MaxLength = 50;
             this.surname.MinimumSize = new System.Drawing.Size(4, 20);
             this.surname.Name = "surname";
-            this.surname.Size = new System.Drawing.Size(641, 30);
+            this.surname.Size = new System.Drawing.Size(654, 30);
             this.surname.TabIndex = 19;
             this.surname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Surname_KeyPress);
             // 
@@ -168,11 +168,11 @@ namespace Progect
             this.patronymic.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.patronymic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.patronymic.Location = new System.Drawing.Point(123, 161);
+            this.patronymic.Location = new System.Drawing.Point(121, 131);
             this.patronymic.MaxLength = 50;
             this.patronymic.MinimumSize = new System.Drawing.Size(4, 20);
             this.patronymic.Name = "patronymic";
-            this.patronymic.Size = new System.Drawing.Size(641, 30);
+            this.patronymic.Size = new System.Drawing.Size(657, 30);
             this.patronymic.TabIndex = 20;
             this.patronymic.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Patronymic_KeyPress);
             // 
@@ -181,11 +181,11 @@ namespace Progect
             this.login.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.login.Location = new System.Drawing.Point(124, 262);
+            this.login.Location = new System.Drawing.Point(120, 225);
             this.login.MaxLength = 50;
             this.login.MinimumSize = new System.Drawing.Size(4, 20);
             this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(640, 30);
+            this.login.Size = new System.Drawing.Size(657, 30);
             this.login.TabIndex = 21;
             // 
             // password
@@ -193,12 +193,44 @@ namespace Progect
             this.password.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.password.Location = new System.Drawing.Point(124, 310);
+            this.password.Location = new System.Drawing.Point(120, 271);
             this.password.MaxLength = 50;
             this.password.MinimumSize = new System.Drawing.Size(4, 20);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(639, 30);
+            this.password.Size = new System.Drawing.Size(657, 30);
             this.password.TabIndex = 22;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(32, 324);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(75, 20);
+            this.label5.TabIndex = 44;
+            this.label5.Text = "Филиал";
+            // 
+            // branch
+            // 
+            this.branch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.branch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.branch.FormattingEnabled = true;
+            this.branch.Location = new System.Drawing.Point(120, 318);
+            this.branch.Name = "branch";
+            this.branch.Size = new System.Drawing.Size(657, 33);
+            this.branch.TabIndex = 43;
+            this.branch.SelectedIndexChanged += new System.EventHandler(this.Branch_SelectedIndexChanged);
+            // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Transparent;
+            this.back.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.back.Image = global::Progect.Properties.Resources.back;
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(91, 27);
+            this.back.Text = "Назад";
+            this.back.Click += new System.EventHandler(this.Back_Click);
             // 
             // menu
             // 
@@ -212,44 +244,12 @@ namespace Progect
             this.menu.TabIndex = 42;
             this.menu.Text = "menuStrip1";
             // 
-            // back
-            // 
-            this.back.BackColor = System.Drawing.Color.Transparent;
-            this.back.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.back.Image = global::Progect.Properties.Resources.back;
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(91, 27);
-            this.back.Text = "Назад";
-            this.back.Click += new System.EventHandler(this.Back_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(38, 363);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 20);
-            this.label5.TabIndex = 44;
-            this.label5.Text = "Филиал";
-            // 
-            // branch
-            // 
-            this.branch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.branch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.branch.FormattingEnabled = true;
-            this.branch.Location = new System.Drawing.Point(123, 356);
-            this.branch.Name = "branch";
-            this.branch.Size = new System.Drawing.Size(640, 33);
-            this.branch.TabIndex = 43;
-            this.branch.SelectedIndexChanged += new System.EventHandler(this.Branch_SelectedIndexChanged);
-            // 
             // EmployeeAddUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(790, 507);
+            this.ClientSize = new System.Drawing.Size(790, 428);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.branch);
             this.Controls.Add(this.menu);
@@ -268,7 +268,6 @@ namespace Progect
             this.Controls.Add(this.save);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(808, 554);
-            this.MinimumSize = new System.Drawing.Size(808, 554);
             this.Name = "EmployeeAddUpdate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Форма добавления и изменения работника";
@@ -293,9 +292,9 @@ namespace Progect
         public System.Windows.Forms.TextBox patronymic;
         public System.Windows.Forms.TextBox login;
         public System.Windows.Forms.TextBox password;
-        private System.Windows.Forms.MenuStrip menu;
-        private System.Windows.Forms.ToolStripMenuItem back;
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.ComboBox branch;
+        private System.Windows.Forms.ToolStripMenuItem back;
+        private System.Windows.Forms.MenuStrip menu;
     }
 }

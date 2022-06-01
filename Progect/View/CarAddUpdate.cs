@@ -63,7 +63,6 @@ namespace Progect
             AddYear();
             sqlManager.AddComboBox(brand, "[dbo].[Car_Brand_View]", 0);
             brand.SelectedIndex = 0;
-            bake.CausesValidation = false;
         }
 
         /// <summary>
@@ -310,16 +309,6 @@ namespace Progect
         private void RegistrationMark_MouseClick(object sender, MouseEventArgs e)
         {
             registrationMark.SelectionStart = registrationMark.Text.Length;
-        }
-
-        /// <summary>
-        /// Обработка закрытия формы для формы добавления и изменения машины
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void CarAddUpdate_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            e.Cancel = false;
         }
     }
 }

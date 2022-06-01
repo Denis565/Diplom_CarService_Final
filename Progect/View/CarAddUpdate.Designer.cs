@@ -43,10 +43,12 @@ namespace Progect
             this.brand = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.model = new System.Windows.Forms.ComboBox();
-            this.bake = new System.Windows.Forms.Button();
             this.save = new System.Windows.Forms.Button();
             this.registrationMark = new System.Windows.Forms.MaskedTextBox();
+            this.menu = new System.Windows.Forms.MenuStrip();
+            this.back = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
+            this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
             // vinNumber
@@ -171,17 +173,6 @@ namespace Progect
             this.model.TabIndex = 36;
             this.model.SelectedIndexChanged += new System.EventHandler(this.Model_SelectedIndexChanged);
             // 
-            // bake
-            // 
-            this.bake.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bake.Location = new System.Drawing.Point(408, 410);
-            this.bake.Name = "bake";
-            this.bake.Size = new System.Drawing.Size(203, 49);
-            this.bake.TabIndex = 40;
-            this.bake.Text = "Отмена";
-            this.bake.UseVisualStyleBackColor = true;
-            this.bake.Click += new System.EventHandler(this.Bake_Click);
-            // 
             // save
             // 
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -206,14 +197,35 @@ namespace Progect
             this.registrationMark.MouseClick += new System.Windows.Forms.MouseEventHandler(this.RegistrationMark_MouseClick);
             this.registrationMark.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RegistrationMark_KeyPress);
             // 
+            // menu
+            // 
+            this.menu.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.menu.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.back});
+            this.menu.Location = new System.Drawing.Point(0, 0);
+            this.menu.Name = "menu";
+            this.menu.Size = new System.Drawing.Size(654, 31);
+            this.menu.TabIndex = 44;
+            this.menu.Text = "menuStrip1";
+            // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Transparent;
+            this.back.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.back.Image = global::Progect.Properties.Resources.back;
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(91, 27);
+            this.back.Text = "Назад";
+            // 
             // CarAddUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(654, 473);
+            this.Controls.Add(this.menu);
             this.Controls.Add(this.registrationMark);
-            this.Controls.Add(this.bake);
             this.Controls.Add(this.save);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.model);
@@ -230,8 +242,9 @@ namespace Progect
             this.Name = "CarAddUpdate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EngineeringCarAdd";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CarAddUpdate_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
+            this.menu.ResumeLayout(false);
+            this.menu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,8 +265,9 @@ namespace Progect
         private System.Windows.Forms.ComboBox model;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox brand;
-        private System.Windows.Forms.Button bake;
         private System.Windows.Forms.Button save;
         private System.Windows.Forms.MaskedTextBox registrationMark;
+        private System.Windows.Forms.MenuStrip menu;
+        private System.Windows.Forms.ToolStripMenuItem back;
     }
 }

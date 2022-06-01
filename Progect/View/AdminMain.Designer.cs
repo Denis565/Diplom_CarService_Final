@@ -754,7 +754,7 @@ namespace Progect
             // 
             this.refreshListGroupServiceAndService.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.refreshListGroupServiceAndService.Image = global::Progect.Properties.Resources.refresh;
-            this.refreshListGroupServiceAndService.Location = new System.Drawing.Point(1107, 6);
+            this.refreshListGroupServiceAndService.Location = new System.Drawing.Point(1135, 6);
             this.refreshListGroupServiceAndService.Name = "refreshListGroupServiceAndService";
             this.refreshListGroupServiceAndService.Size = new System.Drawing.Size(50, 50);
             this.refreshListGroupServiceAndService.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -767,7 +767,7 @@ namespace Progect
             this.groupBoxGroupService.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBoxGroupService.Controls.Add(this.listGroupService);
-            this.groupBoxGroupService.Location = new System.Drawing.Point(606, 52);
+            this.groupBoxGroupService.Location = new System.Drawing.Point(634, 52);
             this.groupBoxGroupService.Name = "groupBoxGroupService";
             this.groupBoxGroupService.Size = new System.Drawing.Size(659, 358);
             this.groupBoxGroupService.TabIndex = 17;
@@ -796,7 +796,7 @@ namespace Progect
             this.groupBoxService.Controls.Add(this.listService);
             this.groupBoxService.Location = new System.Drawing.Point(7, 52);
             this.groupBoxService.Name = "groupBoxService";
-            this.groupBoxService.Size = new System.Drawing.Size(574, 358);
+            this.groupBoxService.Size = new System.Drawing.Size(602, 358);
             this.groupBoxService.TabIndex = 16;
             this.groupBoxService.TabStop = false;
             this.groupBoxService.Text = "Список услуг";
@@ -811,7 +811,7 @@ namespace Progect
             this.listService.Name = "listService";
             this.listService.RowHeadersWidth = 51;
             this.listService.RowTemplate.Height = 24;
-            this.listService.Size = new System.Drawing.Size(562, 327);
+            this.listService.Size = new System.Drawing.Size(590, 327);
             this.listService.TabIndex = 0;
             this.listService.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListService_CellClick);
             this.listService.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListService_CellEndEdit);
@@ -866,7 +866,7 @@ namespace Progect
             // 
             this.refreshListComponent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.refreshListComponent.Image = global::Progect.Properties.Resources.refresh;
-            this.refreshListComponent.Location = new System.Drawing.Point(1106, 3);
+            this.refreshListComponent.Location = new System.Drawing.Point(1134, 3);
             this.refreshListComponent.Name = "refreshListComponent";
             this.refreshListComponent.Size = new System.Drawing.Size(50, 50);
             this.refreshListComponent.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -884,7 +884,7 @@ namespace Progect
             this.listComponent.Name = "listComponent";
             this.listComponent.RowHeadersWidth = 51;
             this.listComponent.RowTemplate.Height = 24;
-            this.listComponent.Size = new System.Drawing.Size(1147, 346);
+            this.listComponent.Size = new System.Drawing.Size(1175, 346);
             this.listComponent.TabIndex = 17;
             this.listComponent.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListComponent_CellEndEdit);
             this.listComponent.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.ListComponent_EditingControlShowing);
