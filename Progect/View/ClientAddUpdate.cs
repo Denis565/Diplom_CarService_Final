@@ -105,7 +105,7 @@ namespace Progect
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Bake_Click(object sender, EventArgs e)
+        private void Back_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -147,16 +147,6 @@ namespace Progect
             {
                 e.Handled = true;
             }
-        }
-
-        /// <summary>
-        /// Обработка закрытия формы для формы добавления и изменения клиента
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void ClientAddUpdate_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            e.Cancel = false;
         }
     }
 }

@@ -57,10 +57,10 @@ namespace Progect
             this.save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.save.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.save.Location = new System.Drawing.Point(10, 376);
+            this.save.Location = new System.Drawing.Point(12, 376);
             this.save.Margin = new System.Windows.Forms.Padding(3, 3, 3, 7);
             this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(765, 38);
+            this.save.Size = new System.Drawing.Size(763, 38);
             this.save.TabIndex = 1;
             this.save.Text = "Сохранить";
             this.save.UseVisualStyleBackColor = false;
@@ -70,7 +70,7 @@ namespace Progect
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(68, 91);
+            this.label1.Location = new System.Drawing.Point(68, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 20);
             this.label1.TabIndex = 8;
@@ -80,7 +80,7 @@ namespace Progect
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(23, 50);
+            this.label2.Location = new System.Drawing.Point(20, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 20);
             this.label2.TabIndex = 9;
@@ -90,7 +90,7 @@ namespace Progect
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(19, 136);
+            this.label3.Location = new System.Drawing.Point(19, 137);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 20);
             this.label3.TabIndex = 10;
@@ -111,7 +111,7 @@ namespace Progect
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(12, 182);
+            this.label4.Location = new System.Drawing.Point(7, 183);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 20);
             this.label4.TabIndex = 11;
@@ -204,7 +204,7 @@ namespace Progect
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(32, 324);
+            this.label5.Location = new System.Drawing.Point(32, 325);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 20);
             this.label5.TabIndex = 44;
