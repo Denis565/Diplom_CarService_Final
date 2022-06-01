@@ -30,29 +30,29 @@ namespace Progect
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModelCarAddUpdate));
-            this.back = new System.Windows.Forms.ToolStripMenuItem();
+            this.close = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.listModel = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.listModel)).BeginInit();
             this.SuspendLayout();
             // 
-            // back
+            // close
             // 
-            this.back.Image = global::Progect.Properties.Resources.back;
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(87, 24);
-            this.back.Text = "Выход";
-            this.back.Click += new System.EventHandler(this.Back_Click);
+            this.close.Image = global::Progect.Properties.Resources.exit;
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(100, 26);
+            this.close.Text = "Закрыть";
+            this.close.Click += new System.EventHandler(this.Close_Click);
             // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.back});
+            this.close});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(625, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(625, 30);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -93,7 +93,7 @@ namespace Progect
 
         #endregion
 
-        private System.Windows.Forms.ToolStripMenuItem back;
+        private System.Windows.Forms.ToolStripMenuItem close;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.DataGridView listModel;
     }

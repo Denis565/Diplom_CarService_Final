@@ -68,7 +68,6 @@ namespace Progect
             this.addListOrders});
             this.menuStrip4.Location = new System.Drawing.Point(0, 0);
             this.menuStrip4.Name = "menuStrip4";
-            this.menuStrip4.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
             this.menuStrip4.Size = new System.Drawing.Size(1069, 31);
             this.menuStrip4.TabIndex = 37;
             this.menuStrip4.Text = "menuStrip4";
@@ -78,8 +77,8 @@ namespace Progect
             this.back.BackColor = System.Drawing.Color.Transparent;
             this.back.Image = global::Progect.Properties.Resources.exit;
             this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(93, 27);
-            this.back.Text = "Выход";
+            this.back.Size = new System.Drawing.Size(108, 27);
+            this.back.Text = "Закрыть";
             this.back.Click += new System.EventHandler(this.Back_Click);
             // 
             // addListOrders

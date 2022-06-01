@@ -42,7 +42,7 @@ namespace Progect
             this.save = new System.Windows.Forms.Button();
             this.phone = new System.Windows.Forms.MaskedTextBox();
             this.menu = new System.Windows.Forms.MenuStrip();
-            this.back = new System.Windows.Forms.ToolStripMenuItem();
+            this.close = new System.Windows.Forms.ToolStripMenuItem();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -149,9 +149,9 @@ namespace Progect
             this.save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.save.Location = new System.Drawing.Point(12, 281);
+            this.save.Location = new System.Drawing.Point(11, 279);
             this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(682, 38);
+            this.save.Size = new System.Drawing.Size(681, 38);
             this.save.TabIndex = 1;
             this.save.Text = "Сохранить";
             this.save.UseVisualStyleBackColor = false;
@@ -171,22 +171,22 @@ namespace Progect
             this.menu.BackColor = System.Drawing.Color.PaleTurquoise;
             this.menu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.back});
+            this.close});
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(706, 31);
             this.menu.TabIndex = 43;
             this.menu.Text = "menuStrip1";
             // 
-            // back
+            // close
             // 
-            this.back.BackColor = System.Drawing.Color.Transparent;
-            this.back.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.back.Image = global::Progect.Properties.Resources.back;
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(91, 27);
-            this.back.Text = "Назад";
-            this.back.Click += new System.EventHandler(this.Back_Click);
+            this.close.BackColor = System.Drawing.Color.Transparent;
+            this.close.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.close.Image = global::Progect.Properties.Resources.exit;
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(108, 27);
+            this.close.Text = "Закрыть";
+            this.close.Click += new System.EventHandler(this.Сlose_Click);
             // 
             // ClientAddUpdate
             // 
@@ -231,6 +231,6 @@ namespace Progect
         private System.Windows.Forms.Button save;
         public System.Windows.Forms.MaskedTextBox phone;
         private System.Windows.Forms.MenuStrip menu;
-        private System.Windows.Forms.ToolStripMenuItem back;
+        private System.Windows.Forms.ToolStripMenuItem close;
     }
 }

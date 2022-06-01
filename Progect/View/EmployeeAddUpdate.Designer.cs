@@ -45,7 +45,7 @@ namespace Progect
             this.password = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.branch = new System.Windows.Forms.ComboBox();
-            this.back = new System.Windows.Forms.ToolStripMenuItem();
+            this.Close = new System.Windows.Forms.ToolStripMenuItem();
             this.menu = new System.Windows.Forms.MenuStrip();
             this.menu.SuspendLayout();
             this.SuspendLayout();
@@ -222,22 +222,22 @@ namespace Progect
             this.branch.TabIndex = 43;
             this.branch.SelectedIndexChanged += new System.EventHandler(this.Branch_SelectedIndexChanged);
             // 
-            // back
+            // Close
             // 
-            this.back.BackColor = System.Drawing.Color.Transparent;
-            this.back.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.back.Image = global::Progect.Properties.Resources.back;
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(91, 27);
-            this.back.Text = "Назад";
-            this.back.Click += new System.EventHandler(this.Back_Click);
+            this.Close.BackColor = System.Drawing.Color.Transparent;
+            this.Close.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Close.Image = global::Progect.Properties.Resources.exit;
+            this.Close.Name = "Close";
+            this.Close.Size = new System.Drawing.Size(108, 27);
+            this.Close.Text = "Закрыть";
+            this.Close.Click += new System.EventHandler(this.Close_Click);
             // 
             // menu
             // 
             this.menu.BackColor = System.Drawing.Color.PaleTurquoise;
             this.menu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.back});
+            this.Close});
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(790, 31);
@@ -294,7 +294,7 @@ namespace Progect
         public System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.ComboBox branch;
-        private System.Windows.Forms.ToolStripMenuItem back;
+        private System.Windows.Forms.ToolStripMenuItem Close;
         private System.Windows.Forms.MenuStrip menu;
     }
 }

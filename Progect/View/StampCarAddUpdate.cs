@@ -42,7 +42,7 @@ namespace Progect
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Back_Click(object sender, EventArgs e)
+        private void Close_Click(object sender, EventArgs e)
         {
             this.Close();
         }

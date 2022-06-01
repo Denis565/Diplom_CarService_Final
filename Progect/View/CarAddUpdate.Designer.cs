@@ -43,7 +43,7 @@ namespace Progect
             this.model = new System.Windows.Forms.ComboBox();
             this.registrationMark = new System.Windows.Forms.MaskedTextBox();
             this.menu = new System.Windows.Forms.MenuStrip();
-            this.back = new System.Windows.Forms.ToolStripMenuItem();
+            this.close = new System.Windows.Forms.ToolStripMenuItem();
             this.save = new System.Windows.Forms.Button();
             this.menu.SuspendLayout();
             this.SuspendLayout();
@@ -184,22 +184,22 @@ namespace Progect
             this.menu.BackColor = System.Drawing.Color.PaleTurquoise;
             this.menu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.back});
+            this.close});
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(633, 31);
             this.menu.TabIndex = 44;
             this.menu.Text = "menuStrip1";
             // 
-            // back
+            // close
             // 
-            this.back.BackColor = System.Drawing.Color.Transparent;
-            this.back.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.back.Image = global::Progect.Properties.Resources.back;
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(91, 27);
-            this.back.Text = "Назад";
-            this.back.Click += new System.EventHandler(this.Back_Click);
+            this.close.BackColor = System.Drawing.Color.Transparent;
+            this.close.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.close.Image = global::Progect.Properties.Resources.exit;
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(108, 27);
+            this.close.Text = "Закрыть";
+            this.close.Click += new System.EventHandler(this.Close_Click);
             // 
             // save
             // 
@@ -260,7 +260,7 @@ namespace Progect
         private System.Windows.Forms.ComboBox brand;
         private System.Windows.Forms.MaskedTextBox registrationMark;
         private System.Windows.Forms.MenuStrip menu;
-        private System.Windows.Forms.ToolStripMenuItem back;
+        private System.Windows.Forms.ToolStripMenuItem close;
         private System.Windows.Forms.Button save;
     }
 }

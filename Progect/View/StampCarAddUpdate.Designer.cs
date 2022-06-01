@@ -32,7 +32,7 @@ namespace Progect
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StampCarAddUpdate));
             this.listStamp = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.back = new System.Windows.Forms.ToolStripMenuItem();
+            this.close = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.listStamp)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -56,20 +56,20 @@ namespace Progect
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.back});
+            this.close});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(625, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(625, 30);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // back
+            // close
             // 
-            this.back.Image = global::Progect.Properties.Resources.back;
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(87, 24);
-            this.back.Text = "Выход";
-            this.back.Click += new System.EventHandler(this.Back_Click);
+            this.close.Image = global::Progect.Properties.Resources.exit;
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(100, 26);
+            this.close.Text = "Закрыть";
+            this.close.Click += new System.EventHandler(this.Close_Click);
             // 
             // StampCarAddUpdate
             // 
@@ -97,6 +97,6 @@ namespace Progect
 
         private System.Windows.Forms.DataGridView listStamp;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem back;
+        private System.Windows.Forms.ToolStripMenuItem close;
     }
 }
